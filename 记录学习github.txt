@@ -1,0 +1,16 @@
+2026年 5-6
+学会了两种从本地上传代码到github的方式
+-----------------------------------------
+一种比较主流的，就是先通过在github上建立一个仓库
+    然后在vscode本地来写代码，或修改代码，直接添加到Remote的已经创建好的仓库上
+    这样的话可以直接pass掉比较头大复杂的git命令
+------------------------------------------
+第二种就是，比如说我自己想vibe coding 在vscode里面自己写了一个项目，然后就可以通过直接
+    先commit到本地，然后在发送branch(也就是发送到github端上)，不过这种还得配置一下git的代理
+    还得用一下这个命令(来自gpt)
+    git config --global http.proxy http://127.0.0.1:7890
+    git config --global https.proxy http://127.0.0.1:7890
+    git ls-remote https://github.com/github/gitignore.git
+    这种呢，就会让远程的仓库名和你自己新建的这个文件的名字就一样了
+    所以其实更推荐第一种，因为你还可以push自己想push的到你对应的仓库里面去
+最后感谢这个教程，如果以后忘了可以回来重新看：https://www.bilibili.com/video/BV1Hkr7YYEh8/?spm_id_from=333.1391.0.0
