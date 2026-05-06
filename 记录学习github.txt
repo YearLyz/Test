@@ -14,4 +14,5 @@
     这种呢，就会让远程的仓库名和你自己新建的这个文件的名字就一样了
     所以其实更推荐第一种，因为你还可以push自己想push的到你对应的仓库里面去
 最后感谢这个教程，如果以后忘了可以回来重新看：https://www.bilibili.com/video/BV1Hkr7YYEh8/?spm_id_from=333.1391.0.0
-回忆今天学习的：vscode是先保存到本地(这一步是commit)，然后再上传到github的branch
+回忆今天学习的：vscode是先保存到本地(这一步是commit，每次commit的时候都记得给这个存档命名)
+然后再上传到github的branch
